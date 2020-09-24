@@ -1,56 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Basic Meta -->
-    <meta charset="UTF-8">
-    <!-- The creater -->
-    <meta name="author" content="Nairobi Sheikh">
-    <meta name="description" content="This is an example of a meta description. This eoll often show up in search results.">
-    <!-- Mobile specific -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS -->
-    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- The Creater -->
+    <meta name="author" content="Nairobi Sheikh" />
+    <meta
+      name="description"
+      content="This is an example of a meta description. This eoll often show up in search results."
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- Goolg Font -->
+    
+   <link
+   href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+   rel="stylesheet"
+ />
+
     <!-- Favicon -->
-    <link rel="icon" href="/img/red.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="/assets/img/red.png" type="image/png" sizes="16x16" />
+
+    <!-- Box icons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="/assets/sass/main.css"/>
+
     <title>Basic-HTML5-Layout</title>
-</head>
-<body>
-    <h1>Site Title</h1>
-    <p>Site Tagline</p>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+          <div>
+              <a href="#" class="nav-logo">Nairobi</a>
+          </div>
 
-    <!-- section is best used for grouping related information -->
-    <section>
-        <!-- article tage best for blogs a little snipets of texts -->
-        <article>
-            <h2>Heading One</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quis molestias eligendi qui neque rerum enim architecto debitis, nisi atque distinctio ducimus facilis quam minus? Vitae voluptatem culpa molestias necessitatibus.</p>
-        </article>
-        <article>
-            <h2>Heading Two</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quis molestias eligendi qui neque rerum enim architecto debitis, nisi atque distinctio ducimus facilis quam minus? Vitae voluptatem culpa molestias necessitatibus.</p>
-        </article>
-        <article>
-            <h2>Heading Three</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quis molestias eligendi qui neque rerum enim architecto debitis, nisi atque distinctio ducimus facilis quam minus? Vitae voluptatem culpa molestias necessitatibus.</p>
-        </article>
-    </section>
+          <div class="nav-menu" id="nav-menu">
+              <ul class="nav-list">
+                  <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+                  <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+              </ul>
+          </div>
 
-    <!-- if you wanted side content use the <aside>tage -->
-    <aside>
-        <!-- you can put any info or list of info -->
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </aside>
+          <div class="nav-toggle" id="nav-toggle">
+              <i class='bx bx-menu'></i>
+          </div>
+      </nav>
+  </header>
 
-    <!-- The footer can have the contact info and the copyriht info or just the copyriht info -->
-    <footer>
-        &#169;HTML5-basics
-    </footer>
-    <!-- Js will go here; for faster load and easyer access to the code -->
-    <script src="#"></script>
-</body>
+  <main class="l-main">
+      <!-- HOME -->
+      <section class="home bd-grid" id="home">
+          <div class="home-data">
+              <h1 class="home-title">Hi,<br>I'am <span class="home-title-color">Nairobi</span><br> Web Developer</h1>
+
+              <a href="#" class="button">Contact</a>
+          </div>
+
+          <div class="home-social">
+              <a href="" class="home-social-icon"><i class='bx bxl-linkedin'></i></a>
+              <a href="" class="home-social-icon"><i class='bx bxl-behance' ></i></a>
+              <a href="" class="home-social-icon"><i class='bx bxl-github' ></i></a>
+          </div>
+
+          <div class="home-img">   
+              <img src="assets/img/me1 copy.svg" alt="">
+          </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about section " id="about">
+          <h2 class="section-title">About</h2>
+
+          <div class="about-container bd-grid">
+              <div class="about-img">
+                  <img src="assets/img/smileyface copy.svg" alt="">
+              </div>
+             
+              <div>
+                  <h2 class="about-subtitle">I'am Nairobi</h2>
+                  <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>          
+              </div>                                  
+          </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="skills section" id="skills">
+          <h2 class="section-title">Skills</h2>
+
+          <div class="skills-container bd-grid">         
+              <div>
+                  <h2 class="skills-subtitle">Profesional Skills</h2>
+                  <p class="skills-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class='bx bxl-html5 skills-icon'></i>
+                          <span class="skills-name">HTML5</span>
+                      </div>
+                      <div class="skills-bar skills-html">
+
+                      </div>
+                      <div>
+                          <span class="skills-percentage">95%</span>
+                      </div>
+                  </div>
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class='bx bxl-css3 skills-icon'></i>
+                          <span class="skills-name">CSS3</span>
+                      </div>
+                      <div class="skills-bar skills-css">
+                         
+                      </div>
+                      <div>
+                          <span class="skills-percentage">85%</span>
+                      </div>
+                  </div>
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class='bx bxl-javascript skills-icon' ></i>
+                          <span class="skills-name">JAVASCRIPT</span>
+                      </div>
+                      <div class="skills-bar skills-js">
+                         
+                      </div>
+                      <div>
+                          <span class="skills-percentage">65%</span>
+                      </div>
+                  </div>
+                  <div class="skills-data">
+                      <div class="skills-names">
+                          <i class='bx bxs-paint skills-icon'></i>
+                          <span class="skills-name">UX/UI</span>
+                      </div>
+                      <div class="skills-bar skills-ux">
+                         
+                      </div>
+                      <div>
+                          <span class="skills-percentage">85%</span>
+                      </div>
+                  </div>
+              </div>
+             
+              <div>             
+                  <img src="/assets/img/work3 copy.jpg" alt="" class="skills-img">
+              </div>
+          </div>
+      </section>
+
+      <!-- WORK -->
+      <section class="work section" id="work">
+          <h2 class="section-title">Work</h2>
+
+          <div class="work-container bd-grid">
+              <div class="work-img">
+                  <img src="/assets/img/work1 copy.jpg" alt="">
+              </div>
+              <div class="work-img">
+                  <img src="/assets/img/work2 copy.jpg" alt="">
+              </div>
+              <div class="work-img">
+                  <img src="/assets/img/work3 copy.jpg" alt="">
+              </div>
+              <div class="work-img">
+                  <img src="assets/img/work4 copy.jpg" alt="">
+              </div>
+              <div class="work-img">
+                  <img src="/assets/img/work5 copy.jpg" alt="">
+              </div>
+              <div class="work-img">
+                  <img src="/assets/img/work6 copy.jpg" alt="">
+              </div>
+          </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+          <h2 class="section-title">Contact</h2>
+
+          <div class="contact-container bd-grid">
+              <form action="" class="contact-form">
+                  <input type="text" placeholder="Name" class="contact-input">
+                  <input type="mail" placeholder="Email" class="contact-input">
+                  <textarea name="" id="" cols="0" rows="10" class="contact-input"></textarea>
+                  <input type="button" value="Enviar" class="contact-button button">
+              </form>
+          </div>
+      </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+      <p class="footer-title">Nairobi</p>
+      <div class="footer-social">
+          <a href="#" class="footer-icon"><i class='bx bxl-facebook' ></i></a>
+          <a href="#" class="footer-icon"><i class='bx bxl-instagram' ></i></a>
+          <a href="#" class="footer-icon"><i class='bx bxl-twitter' ></i></a>
+      </div>
+      <p>&#169; 2020 copyright all right reserved</p>
+  </footer>
+
+
+  <a href="index-1.html">Home1</a>
+  <a href="index-2.html">Home2</a>
+
+  <!-- SCROLL REVEAL -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- MAIN JS -->
+  <script src="assets/js/main.js"></script>
+  </body>
 </html>

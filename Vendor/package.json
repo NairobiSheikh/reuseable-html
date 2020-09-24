@@ -1,0 +1,23 @@
+{
+  "name": "reuseable-html",
+  "version": "1.0.0",
+  "description": "reasonable HTML,  HTML template",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node.sass /assets/css/main.css /assets/sass/main.scss "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NairobiSheikh/reuseable-html.git"
+  },
+  "author": "Nairobi Sheikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NairobiSheikh/reuseable-html/issues"
+  },
+  "homepage": "https://github.com/NairobiSheikh/reuseable-html#readme"
+}
